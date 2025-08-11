@@ -1,4 +1,5 @@
 var d;
+
 function setup() {
   createCanvas(windowWidth, windowHeight).position(0,0).style('z-index','-1');
   background(120, 39, 143);
@@ -10,6 +11,7 @@ function draw() {
   fill(random(0,360),100,100);
   ellipse(mouseX,mouseY,d,d);
 }
+
 function keyPressed() {
   if (key === 'p') {
     save('dibujo.jpg');
