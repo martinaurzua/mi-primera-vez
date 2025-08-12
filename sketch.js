@@ -3,7 +3,7 @@ var d;
 function setup() {
   createCanvas(windowWidth, windowHeight).position(0,0).style('z-index','-1');
   background(120,39,143);
-  noStroke(); // elimina el borde para siempre
+  noStroke();
 }
 
 function draw() {
